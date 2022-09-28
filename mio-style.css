@@ -34,3 +34,21 @@
 .ex-4-square{
   transition: opacity 2s;
 }
+
+.ex-5-square:hover{
+  width: 90px;
+  height: 90px;
+}
+
+.ex-5-square{
+  transition: height 2s;
+  transition: width 2s;
+}
+
+.ex-5-square:active{
+  scale: 20%;
+}
+
+.ex-5-square{
+  transition: scale 2s;
+}
