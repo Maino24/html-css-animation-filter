@@ -116,3 +116,33 @@
   }
 }
 
+.ex-12-button:hover .ex-12-bottom-white{
+  animation: scorrimento-quadrato-sup 2s linear;
+}
+
+@keyframes scorrimento-quadrato-sup{
+  0%  {
+    right: 10%;
+  }
+  50% {
+    right: calc(100% - 60px);
+  }
+  100%  {
+    right: 10%;
+  }
+}
+
+.ex-12-button:hover .ex-12-bottom-white {
+  animation: scorrimento-quadrato-inf 2s linear;
+}
+@keyframes scorrimento-quadrato-inf {
+  0% {
+      right: 20%;
+  }
+  50% {
+      right: calc(100% - 60px);
+  }
+  100% {
+      right: 20%;
+  }
+}
