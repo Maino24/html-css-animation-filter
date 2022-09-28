@@ -82,3 +82,18 @@
 .ex-9-img{
   transition: filter 2s, border-radius 2s, scale 3s;
 }
+
+.ex-10-icon{
+  animation: rotazione 1s infinite linear;
+}
+
+@keyframes rotazione{
+  from{
+    transform: rotate(0deg);
+  }
+
+  to{
+    transform: rotate(360deg);
+  }
+}
+
