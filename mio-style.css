@@ -36,17 +36,15 @@
 }
 
 .ex-5-square:hover{
-  width: 90px;
-  height: 90px;
+  scale: 2;
 }
 
 .ex-5-square{
-  transition: height 2s;
-  transition: width 2s;
+  transition: scale 2s;
 }
 
 .ex-5-square:active{
-  scale: 20%;
+  scale: 0.3;
 }
 
 .ex-5-square{
